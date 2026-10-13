@@ -1,0 +1,17 @@
+{
+  "tool_call": {
+    "role": "assistant",
+    "content": null,
+    "tool_calls": [
+      {
+        "id": "call_0",
+        "name": "get_product_details",
+        "arguments": "{\"sku\": \"BIN-3001\"}"
+      }
+    ]
+  },
+  "final": {
+    "role": "assistant",
+    "content": "Here is your comparison. For SKUs with fresh cache data I report current price and availability; for any SKU whose data is stale or unavailable I flag that the details could not be confirmed and should be re-checked at checkout."
+  }
+}
